@@ -1,5 +1,7 @@
 // println!("{}", minimum_recolors(String::from("WBBWWBBWBW") , 7))
 
+use std::i32::MAX;
+
 fn count_white(text: String) -> i32{
     let mut white_count = 0;
     for i in text.chars(){
